@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-form-demo',
+  selector: 'form-demo',
   template: `
     <div class="container">
       <form>

@@ -1,29 +1,28 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-data-binding',
+  selector: 'data-binding',
   template: `
-    <div>
-      <p>{{ title}}</p>
-      <!-- interpolation -->
-      <!-- <input type="text" value="{{ title }}" /> -->
+    <!-- <div>
+      <p>{{ title}}</p> -->
+    <!-- interpolation -->
+    <!-- <input type="text" value="{{ title }}" /> -->
 
-      <!-- <h3>property binding</h3>
+    <!-- <h3>property binding</h3>
       <div [innerText]></div> -->
 
-      <h3>Event binding</h3>
+    <!-- <h3>Event binding</h3>
       <input type="text" #title /> <br />
       <button (click)="changeTitle(title.value)">change title</button>
 
-      <h3>two-way binding</h3>
-      <!-- <input type="text" [(ngModel)]="title" /> -->
+      <h3>two-way binding</h3> -->
+    <!-- <input type="text" [(ngModel)]="title" /> -->
 
-    </div>
-
+    <!-- </div> -->
 
     <h3>form demo</h3>
 
-    <app-form-demo></app-form-demo>
+    <form-demo></form-demo>
   `,
 })
 export class DataBindingComponent implements OnInit {
